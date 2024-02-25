@@ -1,0 +1,17 @@
+main{
+    text-align: center;
+    margin: 15px auto;
+}
+main .spaceshiftarea img
+{
+    min-width: 350px;
+    max-width: 350px;
+    height: auto;
+}
+.triospaceshifts .spaceshiftarea
+{
+    display: inline-block;
+    vertical-align: top;
+    min-width: 30%;
+    max-width: 30%;
+}

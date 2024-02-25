@@ -1,0 +1,15 @@
+.logo img
+{
+    min-width: 15%;
+    max-width: 15%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo h1
+{
+    font-size: 6em;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 27.5%;
+}
