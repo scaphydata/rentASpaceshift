@@ -1,17 +1,42 @@
-main{
+
+main header h2
+{
     text-align: center;
-    margin: 15px auto;
+    margin: 0 auto;
 }
 main .spaceshiftarea img
 {
-    min-width: 350px;
-    max-width: 350px;
+    min-width: 65%;
+    max-width: 65%;
+    height: auto;
+    text-align: center;
+    margin: 15px auto;
+}
+main main .triospaceshifts
+{
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+}
+main main .triospaceshifts .spaceshiftarea
+{
+    display: block;
+    text-align: center;
+}
+@media screen and (min-width:1200px){
+    
+
+main .spaceshiftarea img
+{
+    min-width: 450px;
+    max-width: 450px;
     height: auto;
 }
-.triospaceshifts .spaceshiftarea
+main main .triospaceshifts .spaceshiftarea
 {
     display: inline-block;
     vertical-align: top;
     min-width: 30%;
     max-width: 30%;
+}
 }

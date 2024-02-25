@@ -1,5 +1,22 @@
 .logo img
 {
+    min-width: 20%;
+    max-width:20%;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo h1
+{
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+@media screen and (min-width:1200px){
+.logo img
+{
     min-width: 15%;
     max-width: 15%;
     height: auto;
@@ -12,4 +29,5 @@
     display: inline-block;
     vertical-align: middle;
     padding-left: 27.5%;
+}
 }
