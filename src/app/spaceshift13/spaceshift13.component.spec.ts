@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Spaceshif11Component } from './spaceshif11.component';
+import { Spaceshift13Component } from './spaceshift13.component';
 
-describe('Spaceshif11Component', () => {
-  let component: Spaceshif11Component;
-  let fixture: ComponentFixture<Spaceshif11Component>;
+describe('Spaceshift13Component', () => {
+  let component: Spaceshift13Component;
+  let fixture: ComponentFixture<Spaceshift13Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Spaceshif11Component]
+      imports: [Spaceshift13Component]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(Spaceshif11Component);
+    fixture = TestBed.createComponent(Spaceshift13Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
